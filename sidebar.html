@@ -1,0 +1,346 @@
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="js/bootstrap.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script href="https://code.jquery.com/jquery-2.1.4.js"></script>
+	 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+	</script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+
+
+
+ <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Manage Accounts</h4>
+      </div>
+      <div class="modal-body">
+         <table class="table">
+        <thead>
+            <tr>
+                <th>Organization</th>
+                <th>Customers Gained</th>
+                <th>Amount Owed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>St. Vincent</td>
+                <td style="color:rgb(46,219,115);">312</td>
+                <td>$120</td>
+                <td> <button class="payNow" type="button" class="btn btn-info" style="color:red;">Pay Now</button></td>
+            </tr>
+            <tr>
+                <td>Red Cross</td>
+                <td style="color:rgb(46,219,115);">312</td>
+                <td>$120</td>
+                <td> <button class="payNow" type="button" class="btn btn-info" style="color:red;">Pay Now</button></td>
+            </tr>
+        </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  
+
+
+
+ <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top topnav"  role="navigation" style="background-color:rgb(46,219,115);">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#" >JCPenney</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                   
+                    <li>
+                        <a href="#contact">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+<body>
+	
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="test.js"></script>
+<script src="makeCSV.js"></script>
+<script src="test.js"></script>
+ <link rel="stylesheet" href="smooth.css">
+ <br>
+ <br>
+
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper" style="background-color:rgb(232, 232, 232);border-width:5px;border-color:black">
+        
+            <ul class="sidebar-nav">
+            	<li class="sidebar-brand" id="sidebar-brand" style="color:black">
+                    <a href="#" id="sidebar-brand" style="color:black">
+                       St. Pius
+                    </a>
+                </li>
+                <div class="charities">
+                	
+                <li >
+                    <a href="#" class="charity">Red Cross</a>
+                </li>
+                <li >
+                    <a href="#" class="charity">St. Vincent</a>
+                </li>
+                <li >
+                    <a href="#" class="charity">Homeless Shelter</a>
+                </li>
+                <li >
+                    <a href="#" class="charity">Boys and Girls Club</a>
+                </li>
+    		</div>
+             <li>
+             	<div class="ui-widget">
+            <input  typ ="text" id="search" placeholder="Add More +" style="border-radius:10px;outline:none;height:37px;">
+            </div>
+                </li>
+            
+            </ul>
+        </div>
+       
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div style="width:75%;margin:10px;">
+	<div class="input-group"> <span class="input-group-addon">Filter</span>
+
+    <input id="filter" type="text" class="form-control" placeholder="Type here...">
+</div>
+<div class="bs-example">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Email</th>
+                <th> <a href=#><span class="print glyphicon glyphicon-print"></span></a></th>
+            </tr>
+        </thead>
+        <tbody class="searchable">
+            <tr class="person">
+                <td>1</td>
+                <td>John</td>
+                <td>Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr class="person">
+                <td>2</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr class="person">
+                <td>3</td>
+                <td>John</td>
+                <td>Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+                    </div>
+                    
+                    
+                    
+   
+                    
+                    <div class="col-sm-6">
+                    	
+                    	<br>
+						<br>
+						
+                      <div class="bs-example">
+    <table class="table">
+    	 <thead>
+            <tr>
+                <th>Detailed Analyses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Total:</td>
+                <td>3</td>
+          
+            </tr>
+              <tr>
+                <td>Average Stay Time:</td>
+                <td>26 minutes</td>
+            </tr>
+               <tr>
+                <td>Most visited section:</td>
+                <td>Bath & Body</td>
+            </tr>
+            <tr>
+                <td>Average Age:</td>
+                <td>35</td>
+               
+            </tr>
+            <tr>
+                <td>Male:</td>
+                <td>53%</td>
+            </tr>
+             <tr>
+                <td>Female:</td>
+                <td>47%</td>
+               
+            </tr>
+            
+              <tr>
+                <td>Returning Customers:</td>
+                <td>2</td>
+            </tr>
+              <tr>
+                <td>Amount Owed:</td>
+                <td>$3</td>
+                 <td> <button type="button"  class="btn btn-info"data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-book"></span></button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+ 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    
+   $('#search').keypress(function (e) {
+  if (e.which == 13) {
+    console.log($(this).val())
+    $(".charities").append("<li> <a href='#'>"+ $(this).val()+"</a> </li>");
+    $(this).val("");
+  }
+});
+
+ $(".charity").click(function() {
+ 	
+       var text = $(this).text()
+       var brand = $(".sidebar-brand").text()
+       console.log(brand)
+       $(this).text(text.replace(text,brand))
+       $(".sidebar-brand").text(brand.replace(brand,text))
+    });
+
+$(".payNow").click(function(){
+	
+	$(this).text("Paid"); 
+	$(this).css("color", "green")
+	
+});
+
+    </script>
+
+
+
+
+</body></html>
